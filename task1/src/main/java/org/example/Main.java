@@ -6,6 +6,7 @@ import org.example.profession.Profession;
 import org.example.serialization.SerializationHelper;
 
 import java.util.*;
+import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -154,6 +155,29 @@ public class Main {
         System.out.println();
         //-----------------------------------------------------------------------------
 
+        //-----------------Parallel stream------------------------------------------
+        System.out.println("All characters in parallel stream:");
+        ForkJoinPool customThreadPool = new ForkJoinPool(4);  // Adjust pool size as needed
+
+        // Task: Print elements with intervals
+        Runnable printTask = () -> {
+            try {
+                // Print each character in the category with a delay
+                for (Character character : allCharacters) {
+                    System.out.println("Profession: " + character.getProfession().getName() + ", Character: " + character.getName());
+                    Thread.sleep(100);  // Simulate workload
+                }
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        };
+
+        // Execute the task for each category using parallel streams and custom thread pool
+        professions.stream()
+                .parallel()
+                .forEach(profession -> customThreadPool.execute(printTask));
+
+        customThreadPool.shutdown();
 
     }
 }
