@@ -22,7 +22,7 @@ public class Spaceship implements Comparable<Spaceship>, Serializable {
     private UUID ID;
     private String name;
     private int capacity;
-    @OneToMany(mappedBy = "spaceship")
+    @OneToMany(mappedBy = "spaceship", fetch = FetchType.EAGER)
     private List<Astronaut> astronauts;
 
     public void addAstronaut(Astronaut astronaut) {
@@ -37,15 +37,15 @@ public class Spaceship implements Comparable<Spaceship>, Serializable {
 
     @Override
     public String toString() {
-        String charactersString = "";
-        for (Astronaut astronaut : astronauts) {
-            charactersString += astronaut.getName() + ", ";
-        }
+//        String astronautsString = "";
+//        for (Astronaut astronaut : astronauts) {
+//            astronautsString += astronaut.getName() + ", ";
+//        }
         return "Spaceship{" +
                 "ID: " + ID +
                 ", name: '" + name + '\'' +
                 ", capacity: " + capacity +
-                ", astronauts: " + charactersString +
+                //", astronauts: " + astronautsString +
                 '}';
     }
 

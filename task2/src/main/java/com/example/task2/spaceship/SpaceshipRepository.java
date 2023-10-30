@@ -7,5 +7,5 @@ import java.util.UUID;
 
 @Repository
 public interface SpaceshipRepository extends JpaRepository<Spaceship, UUID> {
-
+    Spaceship findSpaceshipByID(UUID id); // Find a spaceship by ID
 }
