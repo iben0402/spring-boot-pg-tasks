@@ -39,6 +39,7 @@ public class ApplicationCommand implements CommandLineRunner {
                     System.out.println("help -> prints avaliable commands");
                     System.out.println("get_all_spaceships -> prints all spaceships in repository");
                     System.out.println("get_all_astronauts -> prints all astronauts in repository");
+                    System.out.println("get_astronauts_by_spaceship_name -> prints all astronauts in repository with given spaceship");
                     System.out.println("add_new_astronaut -> adds new astronaut to repository");
                     System.out.println("delete_astronaut {id} -> deletes astronaut of given ID");
                     System.out.println("quit -> quits app");
