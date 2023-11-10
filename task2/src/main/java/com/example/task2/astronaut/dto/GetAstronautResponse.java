@@ -21,12 +21,12 @@ public class GetAstronautResponse {
     @ToString
     @EqualsAndHashCode
     public static class Spaceship {
-        private UUID id;
+        private UUID ID;
         private String name;
         private int capacity;
     }
 
-    private UUID id;
+    private UUID ID;
     private String name;
     private int yearOfBirth;
     private Spaceship spaceship;

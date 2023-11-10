@@ -1,4 +1,4 @@
-package com.example.task2.astronaut.dto;
+package com.example.task2.spaceship.dto;
 
 import lombok.*;
 
@@ -12,11 +12,8 @@ import java.util.UUID;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString
 @EqualsAndHashCode
-public class GetAstronautsResponse {
 
-    /**
-     * Represents single character in list.
-     */
+public class GetSpaceshipsResponse {
     @Getter
     @Setter
     @Builder
@@ -24,16 +21,11 @@ public class GetAstronautsResponse {
     @AllArgsConstructor(access = AccessLevel.PRIVATE)
     @ToString
     @EqualsAndHashCode
-    public static class Astronaut {
+    public static class Spaceship {
         private UUID ID;
         private String name;
     }
 
-    /**
-     * Name of the selected characters.
-     */
-    @Singular
-    private List<Astronaut> astronauts;
+    private List<Spaceship> spaceships;
 
 }
-
