@@ -1,10 +1,8 @@
-package com.example.task2.astronaut;
+package com.example.task2.astronaut.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import com.example.task2.spaceship.Spaceship;
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Type;
+import com.example.task2.spaceship.entity.Spaceship;
 
 import java.io.Serializable;
 import java.util.Objects;

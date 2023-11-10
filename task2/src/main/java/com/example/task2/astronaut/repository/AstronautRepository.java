@@ -1,7 +1,7 @@
-package com.example.task2.astronaut;
+package com.example.task2.astronaut.repository;
 
-import com.example.task2.spaceship.Spaceship;
-import com.example.task2.spaceship.SpaceshipService;
+import com.example.task2.astronaut.entity.Astronaut;
+import com.example.task2.spaceship.entity.Spaceship;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

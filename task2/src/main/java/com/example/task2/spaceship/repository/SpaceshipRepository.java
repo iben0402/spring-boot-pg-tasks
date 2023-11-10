@@ -1,5 +1,6 @@
-package com.example.task2.spaceship;
+package com.example.task2.spaceship.repository;
 
+import com.example.task2.spaceship.entity.Spaceship;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

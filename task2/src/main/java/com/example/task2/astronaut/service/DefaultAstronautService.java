@@ -1,6 +1,8 @@
-package com.example.task2.astronaut;
+package com.example.task2.astronaut.service;
 
-import com.example.task2.spaceship.Spaceship;
+import com.example.task2.astronaut.entity.Astronaut;
+import com.example.task2.astronaut.repository.AstronautRepository;
+import com.example.task2.spaceship.entity.Spaceship;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

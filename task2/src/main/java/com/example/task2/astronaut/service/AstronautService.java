@@ -1,7 +1,7 @@
-package com.example.task2.astronaut;
+package com.example.task2.astronaut.service;
 
-import com.example.task2.spaceship.Spaceship;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.task2.astronaut.entity.Astronaut;
+import com.example.task2.spaceship.entity.Spaceship;
 
 import java.util.List;
 import java.util.UUID;

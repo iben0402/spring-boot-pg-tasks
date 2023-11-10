@@ -1,4 +1,6 @@
-package com.example.task2.spaceship;
+package com.example.task2.spaceship.service;
+
+import com.example.task2.spaceship.entity.Spaceship;
 
 import java.util.List;
 import java.util.UUID;

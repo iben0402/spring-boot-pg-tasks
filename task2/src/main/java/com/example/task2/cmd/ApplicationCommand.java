@@ -1,9 +1,9 @@
 package com.example.task2.cmd;
 
-import com.example.task2.astronaut.Astronaut;
-import com.example.task2.astronaut.AstronautService;
-import com.example.task2.spaceship.Spaceship;
-import com.example.task2.spaceship.SpaceshipService;
+import com.example.task2.astronaut.entity.Astronaut;
+import com.example.task2.astronaut.service.AstronautService;
+import com.example.task2.spaceship.entity.Spaceship;
+import com.example.task2.spaceship.service.SpaceshipService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

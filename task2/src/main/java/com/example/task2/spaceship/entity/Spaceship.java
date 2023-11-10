@@ -1,8 +1,7 @@
-package com.example.task2.spaceship;
+package com.example.task2.spaceship.entity;
 import jakarta.persistence.*;
 import lombok.*;
-import com.example.task2.astronaut.Astronaut;
-import org.hibernate.annotations.GenericGenerator;
+import com.example.task2.astronaut.entity.Astronaut;
 
 import java.io.Serializable;
 import java.util.List;
@@ -13,6 +12,7 @@ import java.util.UUID;
 @Getter
 @Setter
 @EqualsAndHashCode
+@ToString
 @Builder
 @NoArgsConstructor
 @Entity
@@ -22,7 +22,9 @@ public class Spaceship implements Comparable<Spaceship>, Serializable {
     private UUID ID;
     private String name;
     private int capacity;
-    @OneToMany(mappedBy = "spaceship", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "spaceship", fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
+    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<Astronaut> astronauts;
 
     public void addAstronaut(Astronaut astronaut) {
@@ -35,24 +37,6 @@ public class Spaceship implements Comparable<Spaceship>, Serializable {
         astronaut.setSpaceship(null);
     }
 
-    @Override
-    public String toString() {
-//        String astronautsString = "";
-//        for (Astronaut astronaut : astronauts) {
-//            astronautsString += astronaut.getName() + ", ";
-//        }
-        return "Spaceship{" +
-                "ID: " + ID +
-                ", name: '" + name + '\'' +
-                ", capacity: " + capacity +
-                //", astronauts: " + astronautsString +
-                '}';
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(ID, name, capacity);
-    }
     @Override
     public int compareTo(Spaceship o) {
         if(this.ID.compareTo(o.getID()) != 0) {
