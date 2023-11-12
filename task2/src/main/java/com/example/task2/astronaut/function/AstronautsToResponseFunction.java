@@ -1,6 +1,5 @@
 package com.example.task2.astronaut.function;
 
-import com.example.task2.astronaut.dto.GetAstronautResponse;
 import com.example.task2.astronaut.dto.GetAstronautsResponse;
 import com.example.task2.astronaut.entity.Astronaut;
 import org.springframework.stereotype.Component;
