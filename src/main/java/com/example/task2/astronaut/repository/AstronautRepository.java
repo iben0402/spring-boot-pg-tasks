@@ -6,13 +6,15 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 @Repository
 public interface AstronautRepository extends JpaRepository<Astronaut, UUID> {
 
-    Astronaut findAstronautByID(UUID id); // Find an astronaut by ID
-    List<Astronaut> findBySpaceship(Spaceship spaceship); // Find astronauts by spaceship name
+    Optional<Astronaut> findByID(UUID id); // Find an astronaut by ID
+    List<Astronaut> findAllBySpaceship(Spaceship spaceship); // Find astronauts by spaceship
+    List<Astronaut> findAllBySpaceshipID (UUID ID); // Find astronauts by spaceship ID
 
 }
 

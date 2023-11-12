@@ -1,5 +1,6 @@
 package com.example.task2.astronaut.controller;
 
+import com.example.task2.astronaut.dto.GetAstronautResponse;
 import com.example.task2.astronaut.dto.GetAstronautsResponse;
 import com.example.task2.astronaut.dto.PutAstronautRequest;
 import org.springframework.http.HttpStatus;
@@ -23,7 +24,7 @@ public interface AstronautController {
     @GetMapping("/api/astronauts/{ID}")
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
-    GetAstronautsResponse getAstronaut(
+    GetAstronautResponse getAstronaut(
             @PathVariable("ID") UUID ID
     );
 

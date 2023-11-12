@@ -4,11 +4,13 @@ import com.example.task2.astronaut.entity.Astronaut;
 import com.example.task2.spaceship.entity.Spaceship;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 public interface AstronautService {
-    public Astronaut findAstronautByID(UUID id);
+    public Optional<Astronaut> findAstronautByID(UUID id);
     public List<Astronaut> findAstronautsBySpaceship(Spaceship spaceship);
+    public Optional<List<Astronaut>> findAstronautsBySpaceshipID(UUID spaceshipID);
 
     public List<Astronaut> findAllAstronauts();
 

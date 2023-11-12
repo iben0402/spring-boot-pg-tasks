@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -17,7 +18,7 @@ public class DefaultSpaceshipService implements SpaceshipService {
         this.spaceshipRepository = spaceshipRepository;
     }
 
-    public Spaceship findSpaceshipByID(UUID id) {
+    public Optional<Spaceship> findSpaceshipByID(UUID id) {
         return spaceshipRepository.findSpaceshipByID(id);
     }
 
@@ -34,6 +35,6 @@ public class DefaultSpaceshipService implements SpaceshipService {
     }
 
     public void delete(UUID ID) {
-        spaceshipRepository.delete(findSpaceshipByID(ID));
+        spaceshipRepository.findSpaceshipByID(ID).ifPresent(spaceshipRepository::delete);
     }
 }
