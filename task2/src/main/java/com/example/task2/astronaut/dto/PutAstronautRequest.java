@@ -12,7 +12,7 @@ import java.util.UUID;
 @ToString
 @EqualsAndHashCode
 
-public class PutCharacterRequest {
+public class PutAstronautRequest {
     private String name;
     private int yearOfBirth;
     private UUID spaceship;
