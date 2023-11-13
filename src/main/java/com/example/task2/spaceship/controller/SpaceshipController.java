@@ -2,6 +2,7 @@ package com.example.task2.spaceship.controller;
 
 import com.example.task2.spaceship.dto.GetSpaceshipResponse;
 import com.example.task2.spaceship.dto.GetSpaceshipsResponse;
+import com.example.task2.spaceship.dto.PutSpaceshipRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,14 +19,21 @@ public interface SpaceshipController {
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
     GetSpaceshipResponse getSpaceship(
-            @PathVariable("ID") UUID ID
+            @PathVariable("spaceshipID") UUID ID
+    );
+
+    @PutMapping("/api/spaceships/{spaceshipID}")
+    @ResponseStatus(HttpStatus.CREATED)
+    void putSpaceship(
+            @PathVariable("spaceshipID") UUID ID,
+            @RequestBody PutSpaceshipRequest request
     );
 
     @DeleteMapping("/api/spaceships/{spaceshipID}")
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
     void deleteSpaceship(
-            @PathVariable("ID") UUID ID
+            @PathVariable("spaceshipID") UUID ID
     );
 
 }

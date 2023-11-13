@@ -2,6 +2,8 @@ package com.example.task2.spaceship.controller;
 
 import com.example.task2.spaceship.dto.GetSpaceshipResponse;
 import com.example.task2.spaceship.dto.GetSpaceshipsResponse;
+import com.example.task2.spaceship.dto.PutSpaceshipRequest;
+import com.example.task2.spaceship.function.RequestToSpaceshipFunction;
 import com.example.task2.spaceship.function.SpaceshipToResponseFunction;
 import com.example.task2.spaceship.function.SpaceshipsToResponseFunction;
 import com.example.task2.spaceship.service.SpaceshipService;
@@ -15,19 +17,22 @@ import java.util.UUID;
 @RestController
 public class DefaultSpaceshipController implements SpaceshipController {
 
-    private SpaceshipService service;
-    private SpaceshipToResponseFunction spaceshipToResponse;
-    private SpaceshipsToResponseFunction spaceshipsToResponse;
+    private final SpaceshipService service;
+    private final SpaceshipToResponseFunction spaceshipToResponse;
+    private final SpaceshipsToResponseFunction spaceshipsToResponse;
+    private final RequestToSpaceshipFunction requestToSpaceship;
+
 
     @Autowired
     public DefaultSpaceshipController(
             SpaceshipService service,
             SpaceshipToResponseFunction spaceshipToResponse,
-            SpaceshipsToResponseFunction spaceshipsToResponse
-    ) {
+            SpaceshipsToResponseFunction spaceshipsToResponse,
+            RequestToSpaceshipFunction requestToSpaceship) {
         this.service = service;
         this.spaceshipToResponse = spaceshipToResponse;
         this.spaceshipsToResponse = spaceshipsToResponse;
+        this.requestToSpaceship = requestToSpaceship;
     }
     @Override
     public GetSpaceshipsResponse getSpaceships() {
@@ -39,6 +44,11 @@ public class DefaultSpaceshipController implements SpaceshipController {
         return service.findSpaceshipByID(ID)
                 .map(spaceshipToResponse)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+    }
+
+    @Override
+    public void putSpaceship(UUID ID, PutSpaceshipRequest request) {
+        service.create(requestToSpaceship.apply(ID, request));
     }
 
     @Override

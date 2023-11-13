@@ -1,8 +1,6 @@
-package com.example.task2.astronaut.dto;
+package com.example.task2.spaceship.dto;
 
 import lombok.*;
-
-import java.util.UUID;
 
 @Getter
 @Setter
@@ -11,8 +9,7 @@ import java.util.UUID;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString
 @EqualsAndHashCode
-public class PutAstronautRequest {
+public class PutSpaceshipRequest {
     private String name;
-    private int yearOfBirth;
-    private UUID spaceship;
+    private int capacity;
 }
