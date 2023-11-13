@@ -2,10 +2,12 @@ package com.example.task2.spaceship.controller;
 
 import com.example.task2.spaceship.dto.GetSpaceshipResponse;
 import com.example.task2.spaceship.dto.GetSpaceshipsResponse;
+import com.example.task2.spaceship.dto.PatchSpaceshipRequest;
 import com.example.task2.spaceship.dto.PutSpaceshipRequest;
 import com.example.task2.spaceship.function.RequestToSpaceshipFunction;
 import com.example.task2.spaceship.function.SpaceshipToResponseFunction;
 import com.example.task2.spaceship.function.SpaceshipsToResponseFunction;
+import com.example.task2.spaceship.function.UpdateSpaceshipWithRequestFunction;
 import com.example.task2.spaceship.service.SpaceshipService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -21,6 +23,7 @@ public class DefaultSpaceshipController implements SpaceshipController {
     private final SpaceshipToResponseFunction spaceshipToResponse;
     private final SpaceshipsToResponseFunction spaceshipsToResponse;
     private final RequestToSpaceshipFunction requestToSpaceship;
+    private final UpdateSpaceshipWithRequestFunction updateSpaceshipWithRequest;
 
 
     @Autowired
@@ -28,11 +31,12 @@ public class DefaultSpaceshipController implements SpaceshipController {
             SpaceshipService service,
             SpaceshipToResponseFunction spaceshipToResponse,
             SpaceshipsToResponseFunction spaceshipsToResponse,
-            RequestToSpaceshipFunction requestToSpaceship) {
+            RequestToSpaceshipFunction requestToSpaceship, UpdateSpaceshipWithRequestFunction updateSpaceshipWithRequest) {
         this.service = service;
         this.spaceshipToResponse = spaceshipToResponse;
         this.spaceshipsToResponse = spaceshipsToResponse;
         this.requestToSpaceship = requestToSpaceship;
+        this.updateSpaceshipWithRequest = updateSpaceshipWithRequest;
     }
     @Override
     public GetSpaceshipsResponse getSpaceships() {
@@ -56,6 +60,17 @@ public class DefaultSpaceshipController implements SpaceshipController {
         service.findSpaceshipByID(ID)
                 .ifPresentOrElse(
                         spaceship -> service.delete(ID),
+                        () -> {
+                            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+                        }
+                );
+    }
+
+    @Override
+    public void patchSpaceship(UUID ID, PatchSpaceshipRequest request) {
+        service.findSpaceshipByID(ID)
+                .ifPresentOrElse(
+                        spaceship -> service.update(updateSpaceshipWithRequest.apply(spaceship, request)),
                         () -> {
                             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
                         }
