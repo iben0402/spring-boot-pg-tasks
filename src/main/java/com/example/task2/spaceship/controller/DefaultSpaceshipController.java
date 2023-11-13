@@ -21,11 +21,11 @@ public class DefaultSpaceshipController implements SpaceshipController {
 
     @Autowired
     public DefaultSpaceshipController(
-            SpaceshipService spaceshipService,
+            SpaceshipService service,
             SpaceshipToResponseFunction spaceshipToResponse,
             SpaceshipsToResponseFunction spaceshipsToResponse
     ) {
-        this.spaceshipService = spaceshipService;
+        this.service = service;
         this.spaceshipToResponse = spaceshipToResponse;
         this.spaceshipsToResponse = spaceshipsToResponse;
     }
