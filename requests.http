@@ -1,0 +1,24 @@
+### GET all astronauts
+GET http://localhost:8080/api/astronauts
+
+### GET astronaut by ID
+GET http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000017
+
+### GET astronaut by ID, but it doesn't exist
+GET http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+
+### GET all astronauts out of spaceship
+GET http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000001/astronauts
+
+### PUT new astronaut
+PUT http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+Content-Type: application/json
+Authorization: Basic aXdvbmE6dXNlcnVzZXI=
+
+{
+  "name": "Iwona Bendig",
+  "yearOfBirth": 2002,
+  "spaceship": "00000000-0000-0000-0000-000000000001"
+}
+
+
