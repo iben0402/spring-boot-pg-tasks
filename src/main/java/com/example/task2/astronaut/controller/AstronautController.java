@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.UUID;
 
 public interface AstronautController {
-    @GetMapping("/api/astronauts")
+    @GetMapping("api/astronauts")
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
     GetAstronautsResponse getAstronauts();
