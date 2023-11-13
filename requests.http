@@ -21,4 +21,28 @@ Authorization: Basic aXdvbmE6dXNlcnVzZXI=
   "spaceship": "00000000-0000-0000-0000-000000000001"
 }
 
+### DELETE astronaut by ID
+DELETE http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000017
 
+
+### GET all spaceships
+GET http://localhost:8080/api/spaceships
+
+### GET spaceship by ID
+GET http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000001
+
+### GET spaceship by ID, but it doesn't exist
+GET http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000003
+
+### PUT new spaceship
+PUT http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000003
+Content-Type: application/json
+Authorization: Basic aXdvbmE6dXNlcnVzZXI=
+
+{
+  "name": "Enterprise",
+  "capacity": 10
+}
+
+### DELETE spaceship by ID
+DELETE http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000002
