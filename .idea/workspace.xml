@@ -4,28 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="remove accidental files">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="configured working services">
+      <change afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/event/repository/api/SpaceshipEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/event/repository/rest/SpaceshipEventRestRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/requests.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/space-astronaut/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/space-astronaut/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/entity/Astronaut.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/entity/Astronaut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/AstronautToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/AstronautToResponseFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/initialize/InitializeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/DefaultSpaceshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/DefaultSpaceshipController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/initialize/InitializeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/SpaceshipSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/SpaceshipSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +69,18 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AstronautSpringApplication">
+    <configuration name="requests | DELETE astronaut by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-astronaut/requests.http" index="8" requestIdentifier="DELETE astronaut by ID" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | GET all astronauts out of spaceship" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-astronaut/requests.http" index="4" requestIdentifier="GET all astronauts out of spaceship" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | GET all astronauts" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-astronaut/requests.http" requestIdentifier="GET all astronauts" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | PUT new astronaut" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-astronaut/requests.http" index="6" requestIdentifier="PUT new astronaut" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="AstronautSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="space-astronaut" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task2.AstronautSpringApplication" />
@@ -92,6 +102,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | DELETE astronaut by ID" />
+        <item itemvalue="HTTP Request.requests | GET all astronauts" />
+        <item itemvalue="HTTP Request.requests | PUT new astronaut" />
+        <item itemvalue="HTTP Request.requests | GET all astronauts out of spaceship" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700677982983</updated>
-      <workItem from="1700677984280" duration="1181000" />
+      <workItem from="1700677984280" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="remove accidental files">
       <option name="closed" value="true" />
@@ -111,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700678192138</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="configured working services">
+      <option name="closed" value="true" />
+      <created>1700679434371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700679434371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove accidental files" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove accidental files" />
+    <MESSAGE value="configured working services" />
+    <option name="LAST_COMMIT_MESSAGE" value="configured working services" />
   </component>
 </project>

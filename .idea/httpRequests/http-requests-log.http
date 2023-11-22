@@ -1,0 +1,58 @@
+DELETE http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/astronauts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T195833.200.json
+
+###
+
+PUT http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+Content-Type: application/json
+Content-Length: 106
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Iwona Bendig",
+  "yearOfBirth": 2002,
+  "spaceship": "00000000-0000-0000-0000-000000000001"
+}
+
+###
+
+GET http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000001/astronauts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T195806.200.json
+
+###
+
+GET http://localhost:8080/api/astronauts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T195749.200.json
+
+###
+
+GET http://localhost:8080/api/astronauts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-22T195745.200.json
+
+###
+
