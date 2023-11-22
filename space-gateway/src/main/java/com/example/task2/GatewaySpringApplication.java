@@ -18,8 +18,8 @@ public class GatewaySpringApplication {
 	@Bean
 	public RouteLocator routeLocator(
 			RouteLocatorBuilder builder,
-			@Value("${space.astronaut.url}") String astronautUrl,
-			@Value("${space.spaceship.url}") String spaceshipUrl,
+			@Value("${space.astronauts.url}") String astronautUrl,
+			@Value("${space.spaceships.url}") String spaceshipUrl,
 			@Value("${space.gateway.url}") String host
 	) {
 		return builder
@@ -28,7 +28,7 @@ public class GatewaySpringApplication {
 						.host(host)
 						.and()
 						.path(
-								"/api/spaceship/{uuid}",
+								"/api/spaceships/{uuid}",
 								"/api/spaceships"
 						)
 						.uri(spaceshipUrl)

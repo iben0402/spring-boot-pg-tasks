@@ -8,10 +8,10 @@ GET http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000016
 GET http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
 
 ### GET all astronauts out of spaceship
-GET http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000001/astronauts
+GET http://localhost:8080/api/spaceships/00000001-0000-0000-0000-000000000001/astronauts
 
 ### GET all astronauts out of spaceship, but it doesn't exist
-GET http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000003/astronauts
+GET http://localhost:8080/api/spaceships/00000001-0000-0000-0000-000000000003/astronauts
 
 ### PUT new astronaut
 PUT http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
@@ -36,5 +36,5 @@ Content-Type: application/json
 DELETE http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
 
 ### DELETE spaceship by ID
-DELETE http://localhost:8080/api/spaceships/00000000-0000-0000-0000-000000000002
+DELETE http://localhost:8080/api/spaceships/00000001-0000-0000-0000-000000000002
 

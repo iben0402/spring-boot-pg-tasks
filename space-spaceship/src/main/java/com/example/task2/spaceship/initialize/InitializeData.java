@@ -6,7 +6,6 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.UUID;
 
 @Component("initializeDataSpaceship")
@@ -30,19 +29,19 @@ public class InitializeData implements InitializingBean {
         System.out.println("INITIALIZING DATA");
         // Create Spaceships
         Spaceship apollo = Spaceship.builder()
-                .ID(UUID.fromString("00000000-0000-0000-0000-000000000000"))
+                .ID(UUID.fromString("00000001-0000-0000-0000-000000000000"))
                 .name("Apollo")
                 .capacity(5)
                 .build();
 
         Spaceship orion = Spaceship.builder()
-                .ID(UUID.fromString("00000000-0000-0000-0000-000000000001"))
+                .ID(UUID.fromString("00000001-0000-0000-0000-000000000001"))
                 .name("Orion")
                 .capacity(6)
                 .build();
 
         Spaceship crewDragon = Spaceship.builder()
-                .ID(UUID.fromString("00000000-0000-0000-0000-000000000002"))
+                .ID(UUID.fromString("00000001-0000-0000-0000-000000000002"))
                 .name("Crew Dragon")
                 .capacity(7)
                 .build();

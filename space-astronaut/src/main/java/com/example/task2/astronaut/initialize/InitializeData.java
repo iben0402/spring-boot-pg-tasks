@@ -35,17 +35,17 @@ public class InitializeData implements InitializingBean {
         System.out.println("INITIALIZING DATA");
         // Create Spaceships
         Spaceship apollo = Spaceship.builder()
-                .ID(UUID.fromString("00000000-0000-0000-0000-000000000000"))
+                .ID(UUID.fromString("00000001-0000-0000-0000-000000000000"))
                 .astronauts(new ArrayList<>())
                 .build();
 
         Spaceship orion = Spaceship.builder()
-                .ID(UUID.fromString("00000000-0000-0000-0000-000000000001"))
+                .ID(UUID.fromString("00000001-0000-0000-0000-000000000001"))
                 .astronauts(new ArrayList<>())
                 .build();
 
         Spaceship crewDragon = Spaceship.builder()
-                .ID(UUID.fromString("00000000-0000-0000-0000-000000000002"))
+                .ID(UUID.fromString("00000001-0000-0000-0000-000000000002"))
                 .astronauts(new ArrayList<>())
                 .build();
 
