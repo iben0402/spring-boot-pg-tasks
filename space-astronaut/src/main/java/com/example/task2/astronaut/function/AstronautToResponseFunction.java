@@ -16,8 +16,6 @@ public class AstronautToResponseFunction  implements Function<Astronaut, GetAstr
                 .yearOfBirth(astronaut.getYearOfBirth())
                 .spaceship(GetAstronautResponse.Spaceship.builder()
                         .ID(astronaut.getSpaceship().getID())
-                        .name(astronaut.getSpaceship().getName())
-                        .capacity(astronaut.getSpaceship().getCapacity())
                         .build())
                 .build();
     }

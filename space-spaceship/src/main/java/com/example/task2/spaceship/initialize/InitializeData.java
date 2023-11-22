@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.UUID;
 
-@Component
+@Component("initializeDataSpaceship")
 public class InitializeData implements InitializingBean {
 
     private final SpaceshipService spaceshipService;

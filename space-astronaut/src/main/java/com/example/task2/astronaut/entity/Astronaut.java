@@ -30,7 +30,7 @@ public class Astronaut implements Comparable<Astronaut>, Serializable{
                 "ID: " + ID +
                 ", name: '" + name + '\'' +
                 ", year of birth: " + yearOfBirth +
-                ", spaceship: " + spaceship.getName() +
+                ", spaceship: " + spaceship.getID() +
                 '}';
     }
 

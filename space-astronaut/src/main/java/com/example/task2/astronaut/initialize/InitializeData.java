@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-@Component
+@Component("initializeDataAstronaut")
 public class InitializeData implements InitializingBean {
 
     private final AstronautService astronautService;
@@ -26,7 +26,7 @@ public class InitializeData implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() {
-        if (spaceshipService.findAllSpaceships().isEmpty()) {
+        if (astronautService.findAllAstronauts().isEmpty()) {
             createExampleData();
         }
     }
@@ -36,22 +36,16 @@ public class InitializeData implements InitializingBean {
         // Create Spaceships
         Spaceship apollo = Spaceship.builder()
                 .ID(UUID.fromString("00000000-0000-0000-0000-000000000000"))
-                .name("Apollo")
-                .capacity(5)
                 .astronauts(new ArrayList<>())
                 .build();
 
         Spaceship orion = Spaceship.builder()
                 .ID(UUID.fromString("00000000-0000-0000-0000-000000000001"))
-                .name("Orion")
-                .capacity(6)
                 .astronauts(new ArrayList<>())
                 .build();
 
         Spaceship crewDragon = Spaceship.builder()
                 .ID(UUID.fromString("00000000-0000-0000-0000-000000000002"))
-                .name("Crew Dragon")
-                .capacity(7)
                 .astronauts(new ArrayList<>())
                 .build();
 
