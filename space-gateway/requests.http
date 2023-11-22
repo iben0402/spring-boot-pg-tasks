@@ -20,11 +20,11 @@ Content-Type: application/json
 {
   "name": "Iwona Bendig",
   "yearOfBirth": 2002,
-  "spaceship": "00000000-0000-0000-0000-000000000001"
+  "spaceship": "00000001-0000-0000-0000-000000000001"
 }
 
 ### UPDATE astronaut with ID
-PATCH http://localhost:8082/api/astronauts/00000000-0000-0000-0000-000000000018
+PATCH http://localhost:8082/api/astronauts/00000000-0000-0000-0000-000000000017
 Content-Type: application/json
 
 {
