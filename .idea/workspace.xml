@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdb6fc90-83a8-49f0-a927-071310c5c15a" name="Changes" comment="added updates for spaceships and astronauts">
+      <change afterPath="$PROJECT_DIR$/space-astronaut/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-astronaut/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-astronaut/space-astronaut/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-astronaut/space-astronaut/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/space-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/space-gateway/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/Task2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/controller/AstronautController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/controller/DefaultAstronautController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/dto/GetAstronautResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/dto/GetAstronautsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/dto/PatchAstronautRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/dto/PutAstronautRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/entity/Astronaut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/function/AstronautToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/function/AstronautsToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/function/RequestToAstronautFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/function/UpdateAstronautWithRequestFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/repository/AstronautRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/service/AstronautService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/astronaut/service/DefaultAstronautService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/cmd/ApplicationCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/initializeData/InitializeData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/controller/DefaultSpaceshipController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/dto/PatchSpaceshipRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/dto/PutSpaceshipRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/entity/Spaceship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/function/RequestToSpaceshipFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/function/SpaceshipToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/function/SpaceshipsToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/function/UpdateSpaceshipWithRequestFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/repository/SpaceshipRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/task2/spaceship/service/SpaceshipService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/task2/Task2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2Y4MZ6arrJpLIsCqRJsrbGwVLn2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "microservices",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "/Users/iwonabendig/college/s5/spring-boot-pg-tasks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.requests | DELETE astronaut by ID">
+    <configuration name="requests | DELETE astronaut by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" index="8" requestIdentifier="DELETE astronaut by ID" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | DELETE spaceship by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" index="14" requestIdentifier="DELETE spaceship by ID" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | GET all astronauts (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-astronaut/requests.http" requestIdentifier="GET all astronauts" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | GET all astronauts" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" requestIdentifier="GET all astronauts" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | UPDATE astronaut with ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" index="7" requestIdentifier="UPDATE astronaut with ID" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="GatewaySpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="space-gateway (1) (com.example)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task2.GatewaySpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task2.Task2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | GET all astronauts (1)" />
+        <item itemvalue="HTTP Request.requests | GET all astronauts" />
+        <item itemvalue="HTTP Request.requests | DELETE spaceship by ID" />
+        <item itemvalue="HTTP Request.requests | DELETE astronaut by ID" />
+        <item itemvalue="HTTP Request.requests | UPDATE astronaut with ID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdb6fc90-83a8-49f0-a927-071310c5c15a" name="Changes" comment="" />
+      <created>1699780454492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699780454492</updated>
+      <workItem from="1699780455414" duration="4835000" />
+      <workItem from="1699861233481" duration="7136000" />
+      <workItem from="1699887514020" duration="5191000" />
+      <workItem from="1700654883223" duration="452000" />
+      <workItem from="1700677050840" duration="208000" />
+      <workItem from="1700677280493" duration="1000" />
+      <workItem from="1700677295735" duration="98000" />
+      <workItem from="1700677397307" duration="30000" />
+      <workItem from="1700677439330" duration="19000" />
+      <workItem from="1700677477922" duration="168000" />
+    </task>
+    <task id="LOCAL-00001" summary="astronauts controller interface done">
+      <option name="closed" value="true" />
+      <created>1699780952057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699780952057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixes in services, controller for astronaut">
+      <option name="closed" value="true" />
+      <created>1699783773232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699783773233</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Controllers for spaceships">
+      <option name="closed" value="true" />
+      <created>1699862270054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699862270054</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed spaceship controller">
+      <option name="closed" value="true" />
+      <created>1699862391170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699862391170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added putting spaceship, fixes in controllers">
+      <option name="closed" value="true" />
+      <created>1699863429900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699863429900</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modified initializeData, and added few requests">
+      <option name="closed" value="true" />
+      <created>1699865507125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699865507125</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed entity object and added requests">
+      <option name="closed" value="true" />
+      <created>1699867021966</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699867021966</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added requests">
+      <option name="closed" value="true" />
+      <created>1699871455144</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699871455144</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added updates for spaceships and astronauts">
+      <option name="closed" value="true" />
+      <created>1699891859260</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699891859260</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="astronauts controller interface done" />
+    <MESSAGE value="fixes in services, controller for astronaut" />
+    <MESSAGE value="Controllers for spaceships" />
+    <MESSAGE value="fixed spaceship controller" />
+    <MESSAGE value="added putting spaceship" />
+    <MESSAGE value="added putting spaceship, fixes in controllers" />
+    <MESSAGE value="modified initializeData, and added few requests" />
+    <MESSAGE value="fixed entity object and added requests" />
+    <MESSAGE value="added requests" />
+    <MESSAGE value="added updates for spaceships and astronauts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added updates for spaceships and astronauts" />
+  </component>
+</project>

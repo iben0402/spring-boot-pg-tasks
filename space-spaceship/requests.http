@@ -1,0 +1,31 @@
+### GET all spaceships
+GET http://localhost:8081/api/spaceships
+
+### GET spaceship by ID
+GET http://localhost:8081/api/spaceships/00000000-0000-0000-0000-000000000001
+
+### GET spaceship by ID, but it doesn't exist
+GET http://localhost:8081/api/spaceships/00000000-0000-0000-0000-000000000003
+
+### PUT new spaceship
+PUT http://localhost:8081/api/spaceships/00000000-0000-0000-0000-000000000003
+Content-Type: application/json
+Authorization: Basic aXdvbmE6dXNlcnVzZXI=
+
+{
+  "name": "Enterprise",
+  "capacity": 10
+}
+
+### UPDATE spaceship with ID
+PATCH http://localhost:8081/api/spaceships/00000000-0000-0000-0000-000000000003
+Content-Type: application/json
+
+{
+  "name": "notEnterprise",
+  "capacity": 5
+}
+
+### DELETE spaceship by ID
+DELETE http://localhost:8081/api/spaceships/00000000-0000-0000-0000-000000000002
+
