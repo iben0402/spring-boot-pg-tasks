@@ -14,6 +14,4 @@ import java.util.UUID;
 
 public class GetSpaceshipResponse {
     private UUID ID;
-    private String name;
-    private int capacity;
 }

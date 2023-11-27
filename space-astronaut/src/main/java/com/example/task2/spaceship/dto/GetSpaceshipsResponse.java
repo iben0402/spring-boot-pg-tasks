@@ -23,7 +23,6 @@ public class GetSpaceshipsResponse {
     @EqualsAndHashCode
     public static class Spaceship {
         private UUID ID;
-        private String name;
     }
 
     private List<Spaceship> spaceships;

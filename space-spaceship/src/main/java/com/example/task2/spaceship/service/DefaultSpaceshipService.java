@@ -33,6 +33,7 @@ public class DefaultSpaceshipService implements SpaceshipService {
 
     public void create(Spaceship spaceship) {
         spaceshipRepository.save(spaceship);
+        spaceshipEventRepository.create(spaceship.getID());
     }
 
     public void update(Spaceship spaceship) {

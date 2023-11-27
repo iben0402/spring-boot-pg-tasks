@@ -22,8 +22,6 @@ public class GetAstronautResponse {
     @EqualsAndHashCode
     public static class Spaceship {
         private UUID ID;
-        private String name;
-        private int capacity;
     }
 
     private UUID ID;

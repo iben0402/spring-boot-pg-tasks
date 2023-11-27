@@ -21,4 +21,9 @@ public class SpaceshipEventRestRepository implements SpaceshipEventRepository {
     public void delete(UUID ID) {
         restTemplate.delete("/api/spaceships/{ID}", ID);
     }
+
+    @Override
+    public void create(UUID ID) {
+        restTemplate.put("/api/spaceships/{ID}", null, ID);
+    }
 }
