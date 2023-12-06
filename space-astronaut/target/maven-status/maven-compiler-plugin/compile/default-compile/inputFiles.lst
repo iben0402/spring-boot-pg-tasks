@@ -6,7 +6,6 @@
 /Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-astronaut/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java
 /Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-astronaut/src/main/java/com/example/task2/spaceship/repository/SpaceshipRepository.java
 /Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-astronaut/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java
-/Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-astronaut/src/main/java/com/example/task2/spaceship/dto/PatchSpaceshipRequest.java
 /Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-astronaut/src/main/java/com/example/task2/astronaut/dto/PatchAstronautRequest.java
 /Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-astronaut/src/main/java/com/example/task2/astronaut/service/AstronautService.java
 /Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-astronaut/src/main/java/com/example/task2/AstronautSpringApplication.java

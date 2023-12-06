@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="fixed spaceship microservice, removing spaceship fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="add event for adding spaceship">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-22T195745.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-22T195749.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-22T195806.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-22T195833.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/requests.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/initialize/InitializeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/dto/PatchSpaceshipRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/space-astronaut-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/space-astronaut-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/requests.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-gateway/src/main/java/com/example/task2/GatewaySpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/src/main/java/com/example/task2/GatewaySpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/space-gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/space-gateway-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/requests.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/initialize/InitializeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/target/space-spaceship-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/space-spaceship-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,39 +39,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YXhlCrgQrbg7WudVLwVtxbKVGK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "microservices",
-    "last_opened_file_path": "/Users/iwonabendig/college/s5/spring-boot-pg-tasks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;microservices&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/iwonabendig/college/s5/spring-boot-pg-tasks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -81,16 +86,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AstronautSpringApplication">
+    <configuration name="requests | DELETE spaceship by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="14" requestIdentifier="DELETE spaceship by ID" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="requests | GET all astronauts" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" requestIdentifier="GET all astronauts" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="requests | GET all spaceships" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="9" requestIdentifier="GET all spaceships" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests | GET astronaut by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="2" requestIdentifier="GET astronaut by ID" runType="Run single request">
+    <configuration name="requests | PUT new astronaut" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="6" requestIdentifier="PUT new astronaut" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests | GET spaceship by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="10" requestIdentifier="GET spaceship by ID" runType="Run single request">
+    <configuration name="requests | PUT new spaceship" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="12" requestIdentifier="PUT new spaceship" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="AstronautSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -117,9 +125,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.requests | GET all astronauts" />
-        <item itemvalue="HTTP Request.requests | GET spaceship by ID" />
+        <item itemvalue="HTTP Request.requests | PUT new astronaut" />
         <item itemvalue="HTTP Request.requests | GET all spaceships" />
-        <item itemvalue="HTTP Request.requests | GET astronaut by ID" />
+        <item itemvalue="HTTP Request.requests | PUT new spaceship" />
+        <item itemvalue="HTTP Request.requests | DELETE spaceship by ID" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +140,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700677982983</updated>
-      <workItem from="1700677984280" duration="6845000" />
+      <workItem from="1700677984280" duration="8593000" />
+      <workItem from="1701098181170" duration="5519000" />
+      <workItem from="1701103723699" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="remove accidental files">
       <option name="closed" value="true" />
@@ -157,7 +168,39 @@
       <option name="project" value="LOCAL" />
       <updated>1700680744468</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="not working gateway, need fixing">
+      <option name="closed" value="true" />
+      <created>1700685223653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700685223653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed gateway">
+      <option name="closed" value="true" />
+      <created>1700686742535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700686742535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed gateway">
+      <option name="closed" value="true" />
+      <created>1700686804687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700686804687</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add event for adding spaceship">
+      <option name="closed" value="true" />
+      <created>1701104288895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701104288895</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +210,20 @@
     <MESSAGE value="remove accidental files" />
     <MESSAGE value="configured working services" />
     <MESSAGE value="fixed spaceship microservice, removing spaceship fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed spaceship microservice, removing spaceship fixed" />
+    <MESSAGE value="not working gateway, need fixing" />
+    <MESSAGE value="fixed gateway" />
+    <MESSAGE value="add event for adding spaceship" />
+    <option name="LAST_COMMIT_MESSAGE" value="add event for adding spaceship" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

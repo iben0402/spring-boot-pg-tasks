@@ -17,7 +17,6 @@ com/example/task2/astronaut/controller/AstronautController.class
 com/example/task2/astronaut/entity/Astronaut$AstronautBuilder.class
 com/example/task2/astronaut/function/RequestToAstronautFunction.class
 com/example/task2/astronaut/dto/PutAstronautRequest$PutAstronautRequestBuilder.class
-com/example/task2/spaceship/dto/PatchSpaceshipRequest.class
 com/example/task2/spaceship/entity/Spaceship.class
 com/example/task2/astronaut/dto/GetAstronautResponse$GetAstronautResponseBuilder.class
 com/example/task2/astronaut/dto/GetAstronautsResponse$Astronaut$AstronautBuilder.class
@@ -25,7 +24,6 @@ com/example/task2/astronaut/initialize/InitializeData.class
 com/example/task2/spaceship/dto/GetSpaceshipsResponse$Spaceship.class
 com/example/task2/spaceship/dto/GetSpaceshipResponse$GetSpaceshipResponseBuilder.class
 com/example/task2/astronaut/controller/DefaultAstronautController.class
-com/example/task2/spaceship/dto/PatchSpaceshipRequest$PatchSpaceshipRequestBuilder.class
 com/example/task2/spaceship/entity/Spaceship$SpaceshipBuilder.class
 com/example/task2/astronaut/dto/GetAstronautResponse.class
 com/example/task2/astronaut/function/UpdateAstronautWithRequestFunction.class

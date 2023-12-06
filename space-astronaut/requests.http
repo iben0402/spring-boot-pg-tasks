@@ -20,7 +20,7 @@ Content-Type: application/json
 {
   "name": "Iwona Bendig",
   "yearOfBirth": 2002,
-  "spaceship": "00000000-0000-0000-0000-000000000001"
+  "spaceship": "00000000-0000-0000-0000-000000000003"
 }
 
 ### UPDATE astronaut with ID
