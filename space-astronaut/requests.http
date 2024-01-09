@@ -1,0 +1,40 @@
+### GET all astronauts
+GET http://localhost:8080/api/astronauts
+
+### GET astronaut by ID
+GET http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000016
+
+### GET astronaut by ID, but it doesn't exist
+GET http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+
+### GET all astronauts out of spaceship
+GET http://localhost:8080/api/spaceships/00000001-0000-0000-0000-000000000001/astronauts
+
+### GET all astronauts out of spaceship, but it doesn't exist
+GET http://localhost:8080/api/spaceships/00000001-0000-0000-0000-000000000003/astronauts
+
+### PUT new astronaut
+PUT http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+Content-Type: application/json
+
+{
+  "name": "Iwona Bendig",
+  "yearOfBirth": 2002,
+  "spaceship": "00000000-0000-0000-0000-000000000003"
+}
+
+### UPDATE astronaut with ID
+PATCH http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+Content-Type: application/json
+
+{
+  "name": "Iwona nieBendig",
+  "yearOfBirth": 2003
+}
+
+### DELETE astronaut by ID
+DELETE http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
+
+### DELETE spaceship by ID
+DELETE http://localhost:8080/api/spaceships/00000001-0000-0000-0000-000000000002
+

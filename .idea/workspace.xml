@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="initialize angular project">
+      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceships.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2YXhlCrgQrbg7WudVLwVtxbKVGK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "microservices",
+    "last_opened_file_path": "/Users/iwonabendig/college/s5/spring-boot-pg-tasks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "ts.external.directory.path": "/Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-ng/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AstronautSpringApplication">
+    <configuration name="requests | DELETE spaceship by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="14" requestIdentifier="DELETE spaceship by ID" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | GET all astronauts" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" requestIdentifier="GET all astronauts" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | GET all spaceships" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="9" requestIdentifier="GET all spaceships" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | PUT new astronaut" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="6" requestIdentifier="PUT new astronaut" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | PUT new spaceship" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="12" requestIdentifier="PUT new spaceship" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AstronautSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="space-astronaut" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task2.AstronautSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewaySpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="space-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task2.GatewaySpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="space-spaceship" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task2.SpaceshipSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | GET all astronauts" />
+        <item itemvalue="HTTP Request.requests | PUT new astronaut" />
+        <item itemvalue="HTTP Request.requests | GET all spaceships" />
+        <item itemvalue="HTTP Request.requests | PUT new spaceship" />
+        <item itemvalue="HTTP Request.requests | DELETE spaceship by ID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="" />
+      <created>1700677982983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700677982983</updated>
+      <workItem from="1700677984280" duration="8593000" />
+      <workItem from="1701098181170" duration="5519000" />
+      <workItem from="1701103723699" duration="724000" />
+      <workItem from="1702305621002" duration="1744000" />
+    </task>
+    <task id="LOCAL-00001" summary="remove accidental files">
+      <option name="closed" value="true" />
+      <created>1700678192138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700678192138</updated>
+    </task>
+    <task id="LOCAL-00002" summary="configured working services">
+      <option name="closed" value="true" />
+      <created>1700679434371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700679434371</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed spaceship microservice, removing spaceship fixed">
+      <option name="closed" value="true" />
+      <created>1700680744468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700680744468</updated>
+    </task>
+    <task id="LOCAL-00004" summary="not working gateway, need fixing">
+      <option name="closed" value="true" />
+      <created>1700685223653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700685223653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed gateway">
+      <option name="closed" value="true" />
+      <created>1700686742535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700686742535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed gateway">
+      <option name="closed" value="true" />
+      <created>1700686804687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700686804687</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add event for adding spaceship">
+      <option name="closed" value="true" />
+      <created>1701104288895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701104288895</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initialize angular project">
+      <option name="closed" value="true" />
+      <created>1702305669469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702305669469</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove accidental files" />
+    <MESSAGE value="configured working services" />
+    <MESSAGE value="fixed spaceship microservice, removing spaceship fixed" />
+    <MESSAGE value="not working gateway, need fixing" />
+    <MESSAGE value="fixed gateway" />
+    <MESSAGE value="add event for adding spaceship" />
+    <MESSAGE value="initialize angular project" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialize angular project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

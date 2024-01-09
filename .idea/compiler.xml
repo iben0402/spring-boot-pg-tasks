@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="space-spaceship" />
+        <module name="space-gateway" />
+        <module name="space-astronaut" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="space-gateway (1) (com.example)" target="17" />
+      <module name="space-gateway (2) (org.example)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="space-astronaut" options="-parameters" />
+      <module name="space-gateway" options="-parameters" />
+      <module name="space-gateway (1) (com.example)" options="-parameters" />
+      <module name="space-spaceship" options="-parameters" />
+    </option>
+  </component>
+</project>
