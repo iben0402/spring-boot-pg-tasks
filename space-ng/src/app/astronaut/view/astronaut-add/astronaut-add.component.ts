@@ -5,6 +5,8 @@ import { AstronautForm } from '../../model/astronaut-form';
 import { SpaceshipService } from "../../../spaceship/service/spaceship.service";
 import { Spaceships } from "../../../spaceship/model/spaceships";
 import {Spaceship} from "../../../spaceship/model/spaceship";
+import { v4 as uuidv4 } from 'uuid';
+import {Astronauts} from "../../model/astronauts";
 
 @Component({
   selector: 'app-astronaut-add',
@@ -61,7 +63,9 @@ export class AstronautAddComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.spaceshipService.getSpaceship(params['uuid'])
         .subscribe(spaceship => {
-          this.uuid = spaceship.id;
+          this.generateUUID().then(generatedUUID => {
+            this.uuid = generatedUUID;
+          });
           this.spaceship = {
             id: spaceship.id,
             name: spaceship.name,
@@ -82,5 +86,24 @@ export class AstronautAddComponent implements OnInit {
     this.astronautService.putAstronaut(this.uuid!, this.astronaut!)
       .subscribe(() => this.router.navigate(['/astronauts']));
   }
+
+
+  async generateUUID(): Promise<string> {
+    let uniqueUUID = uuidv4();
+    let isUnique = false;
+
+    while (!isUnique) {
+      this.astronautService.getAstronaut(uniqueUUID).subscribe(astronaut => {
+        if (astronaut.id === uniqueUUID) {
+          isUnique = false;
+        } else {
+          isUnique = true;
+        }
+      });
+    }
+
+    return uniqueUUID;
+  }
+
 
 }

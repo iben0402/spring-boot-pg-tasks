@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="initialize angular project">
-      <change afterPath="$PROJECT_DIR$/space-ng/src/proxy.conf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +163,7 @@
       <workItem from="1702305621002" duration="1744000" />
       <workItem from="1704839504258" duration="377000" />
       <workItem from="1704840051161" duration="588000" />
-      <workItem from="1704840828689" duration="11474000" />
+      <workItem from="1704840828689" duration="17262000" />
     </task>
     <task id="LOCAL-00001" summary="remove accidental files">
       <option name="closed" value="true" />
