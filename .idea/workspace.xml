@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="initialize angular project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-ng/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-ng/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +161,10 @@
       <workItem from="1702305621002" duration="1744000" />
       <workItem from="1704839504258" duration="377000" />
       <workItem from="1704840051161" duration="588000" />
-      <workItem from="1704840828689" duration="17262000" />
+      <workItem from="1704840828689" duration="17460000" />
+      <workItem from="1704922602907" duration="342000" />
+      <workItem from="1704923153359" duration="286000" />
+      <workItem from="1704923455811" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="remove accidental files">
       <option name="closed" value="true" />
@@ -256,13 +257,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/space-ng/src/app/astronaut/service/astronaut.service.ts</url>
           <line>45</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.ts</url>
           <line>33</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

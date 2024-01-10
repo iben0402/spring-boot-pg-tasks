@@ -63,9 +63,7 @@ export class AstronautAddComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.spaceshipService.getSpaceship(params['uuid'])
         .subscribe(spaceship => {
-          this.generateUUID().then(generatedUUID => {
-            this.uuid = generatedUUID;
-          });
+          this.uuid = 'f5875513-bf7b-4ae1-b8a5-5b70a1b90333';
           this.spaceship = {
             id: spaceship.id,
             name: spaceship.name,
@@ -74,36 +72,13 @@ export class AstronautAddComponent implements OnInit {
           this.astronaut.spaceship = this.spaceship.id;
         });
     });
-
-
-    this.uuid = 'f5875513-bf7b-4ae1-b8a5-5b70a1b90333';
   }
 
   /**
    * Updates astronaut.
    */
   onSubmit(): void {
-    this.astronautService.putAstronaut(this.uuid!, this.astronaut!)
+    this.astronautService.putAstronaut(uuidv4(), this.astronaut)
       .subscribe(() => this.router.navigate(['/astronauts']));
   }
-
-
-  async generateUUID(): Promise<string> {
-    let uniqueUUID = uuidv4();
-    let isUnique = false;
-
-    while (!isUnique) {
-      this.astronautService.getAstronaut(uniqueUUID).subscribe(astronaut => {
-        if (astronaut.id === uniqueUUID) {
-          isUnique = false;
-        } else {
-          isUnique = true;
-        }
-      });
-    }
-
-    return uniqueUUID;
-  }
-
-
 }
