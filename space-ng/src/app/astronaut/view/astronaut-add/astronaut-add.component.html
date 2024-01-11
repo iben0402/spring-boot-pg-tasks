@@ -1,0 +1,46 @@
+<article *ngIf="astronaut">
+  <header><h2>Add Astronaut</h2></header>
+
+  <form class="container"  #form="ngForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" name="name" [(ngModel)]="astronaut.name"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <label for="yearOfBirth">Year of Birth:</label>
+          <input id="yearOfBirth" name="yearOfBirth" [(ngModel)]="astronaut.yearOfBirth"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4 p-2">
+        <fieldset *ngIf="spaceship">
+          <legend>Spaceship:</legend>
+          <div *ngFor="let spaceship of spaceships?.spaceships">
+            <label>
+              <input type="radio" name="spaceship" [(ngModel)]="astronaut.spaceship" [value]="spaceship.id"/>
+              {{spaceship.name}}
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-2 p-2">
+        <button type="submit">Add</button>
+      </div>
+      <div class="col-2 p-2">
+        <button type="button" (click)="form.resetForm()">Reset</button>
+      </div>
+    </div>
+  </form>
+</article>

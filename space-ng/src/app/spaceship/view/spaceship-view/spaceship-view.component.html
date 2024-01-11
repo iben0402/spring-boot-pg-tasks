@@ -1,0 +1,52 @@
+<article *ngIf="spaceship">
+  <header><h2>{{spaceship.name}}</h2></header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="row mb-2">
+          <div class="col-6">
+            Astronauts
+          </div>
+          <div class="col-6">
+            <table *ngIf="astronauts">
+              <thead>
+              <tr>
+                <th>Name</th>
+                <th>View</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let astronaut of astronauts.astronauts">
+                <td>{{astronaut.name}}</td>
+                <td>
+                  <a [routerLink]="['/astronauts', astronaut.id]">View</a>
+                </td>
+                <td>
+                  <a [routerLink]="['/astronauts', astronaut.id, 'edit']">Edit</a>
+                </td>
+                <td>
+                  <button (click)="onDelete(astronaut)">Delete</button>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-6">
+            Capacity
+          </div>
+          <div class="col-6">
+            <span>{{spaceship.capacity}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<div><app-astronaut-add></app-astronaut-add></div>

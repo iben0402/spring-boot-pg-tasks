@@ -1,0 +1,30 @@
+<article class="text--justified">
+  <header><h2>Spaceships</h2></header>
+
+  <table *ngIf="spaceships">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>View</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let spaceship of spaceships.spaceships">
+      <td>{{spaceship.name}}</td>
+      <td>
+        <a [routerLink]="['/spaceships', spaceship.id]">View</a>
+      </td>
+      <td>
+        <a [routerLink]="['/spaceships', spaceship.id, 'edit']">Edit</a>
+      </td>
+      <td>
+        <button (click)="onDelete(spaceship)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</article>
+
+<div><app-spaceship-add></app-spaceship-add></div>

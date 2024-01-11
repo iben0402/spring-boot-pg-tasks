@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="initialize angular project">
-      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceships.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +40,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "microservices",
-    "last_opened_file_path": "/Users/iwonabendig/college/s5/spring-boot-pg-tasks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "ts.external.directory.path": "/Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-ng/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;microservices&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/iwonabendig/college/s5/spring-boot-pg-tasks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-ng/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -76,7 +75,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AstronautSpringApplication">
+  <component name="RunManager" selected="npm.start">
     <configuration name="requests | DELETE spaceship by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="14" requestIdentifier="DELETE spaceship by ID" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -113,6 +112,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="install" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/space-ng/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/space-ng/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.requests | DELETE spaceship by ID" />
+      <item itemvalue="HTTP Request.requests | GET all astronauts" />
+      <item itemvalue="HTTP Request.requests | GET all spaceships" />
+      <item itemvalue="HTTP Request.requests | PUT new astronaut" />
+      <item itemvalue="HTTP Request.requests | PUT new spaceship" />
+      <item itemvalue="npm.install" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="Spring Boot.AstronautSpringApplication" />
+      <item itemvalue="Spring Boot.GatewaySpringApplication" />
+      <item itemvalue="Spring Boot.SpaceshipSpringApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.requests | GET all astronauts" />
@@ -135,6 +160,13 @@
       <workItem from="1701098181170" duration="5519000" />
       <workItem from="1701103723699" duration="724000" />
       <workItem from="1702305621002" duration="1744000" />
+      <workItem from="1704839504258" duration="377000" />
+      <workItem from="1704840051161" duration="588000" />
+      <workItem from="1704840828689" duration="17460000" />
+      <workItem from="1704922602907" duration="342000" />
+      <workItem from="1704923153359" duration="286000" />
+      <workItem from="1704923455811" duration="3775000" />
+      <workItem from="1704958475241" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="remove accidental files">
       <option name="closed" value="true" />
@@ -223,6 +255,11 @@
           <url>file://$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java</url>
           <line>43</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/space-ng/src/app/astronaut/service/astronaut.service.ts</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
