@@ -11,14 +11,13 @@ services:
     environment:
       SPACE_ASTRONAUT_URL: "http://space-astronaut:8080"
 
-
   space-gateway:
     image: space-gateway:1.0.0-SNAPSHOT
     restart: always
     environment:
       SPACE_ASTRONAUT_URL: "http://space-astronaut:8080"
       SPACE_SPACESHIP_URL: "http://space-spaceship:8080"
-      SPACE_GATEWAY_HOST: "space-gateway:8082"
+      SPACE_GATEWAY_HOST: "http://space-gateway:8080"
 
   space-ng:
     image: space-ng:1.0.0-SNAPSHOT

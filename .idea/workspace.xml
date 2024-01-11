@@ -4,35 +4,180 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="initialize angular project">
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-astronaut/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-astronaut/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-gateway/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-ng/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-ng/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-ng/docker/etc/nginx/templates/default.conf.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-spaceship/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space-spaceship/build.sh" afterDir="false" />
+    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="docker set up">
+      <change afterPath="$PROJECT_DIR$/space-astronaut/target/space-astronaut-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/target/space-gateway-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/target/space-spaceship-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-boot-pg-tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-boot-pg-tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-astronaut/target/space-astronaut-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/requests.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/AstronautSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/AstronautSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/controller/AstronautController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/controller/AstronautController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/controller/DefaultAstronautController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/controller/DefaultAstronautController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/GetAstronautResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/GetAstronautResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/GetAstronautsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/GetAstronautsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/PatchAstronautRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/PatchAstronautRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/PutAstronautRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/dto/PutAstronautRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/entity/Astronaut.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/entity/Astronaut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/AstronautToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/AstronautToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/AstronautsToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/AstronautsToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/RequestToAstronautFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/RequestToAstronautFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/UpdateAstronautWithRequestFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/function/UpdateAstronautWithRequestFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/initialize/InitializeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/repository/AstronautRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/repository/AstronautRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/service/AstronautService.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/service/AstronautService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/service/DefaultAstronautService.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/service/DefaultAstronautService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/DefaultSpaceshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/DefaultSpaceshipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/dto/PutSpaceshipRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/dto/PutSpaceshipRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/entity/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/entity/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/repository/SpaceshipRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/repository/SpaceshipRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/service/SpaceshipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/spaceship/service/SpaceshipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/test/java/com/example/task2/Task2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/test/java/com/example/task2/Task2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/requests.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/src/main/java/com/example/task2/GatewaySpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/src/main/java/com/example/task2/GatewaySpringApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/src/test/java/com/example/task2/GatewaySpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/src/test/java/com/example/task2/GatewaySpringApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-gateway/target/space-gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/docker/etc/nginx/templates/default.conf.template" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/docker/etc/nginx/templates/default.conf.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronaut-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronaut-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronaut-form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronaut-form.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronaut.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronaut.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronauts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/model/astronauts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/service/astronaut.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/service/astronaut.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/service/astronaut.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/service/astronaut.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-add/astronaut-add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-edit/astronaut-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-list/astronaut-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/astronaut/view/astronaut-view/astronaut-view.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/main/main.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship-details.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship-details.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship-form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship-form.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceship.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceships.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/model/spaceships.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/service/spaceship.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-add/spaceship-add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-edit/spaceship-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-list/spaceship-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/spaceship/view/spaceship-view/spaceship-view.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/proxy.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-spaceship/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-spaceship/target/space-spaceship-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/requests.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/SpaceshipSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/SpaceshipSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/controller/DefaultSpaceshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/controller/DefaultSpaceshipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/controller/SpaceshipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/GetSpaceshipsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/PatchSpaceshipRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/PatchSpaceshipRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/PutSpaceshipRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/dto/PutSpaceshipRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/entity/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/entity/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/event/repository/api/SpaceshipEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/event/repository/api/SpaceshipEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/event/repository/rest/SpaceshipEventRestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/event/repository/rest/SpaceshipEventRestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/RequestToSpaceshipFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/RequestToSpaceshipFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/SpaceshipToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/SpaceshipToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/SpaceshipsToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/SpaceshipsToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/UpdateSpaceshipWithRequestFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/function/UpdateSpaceshipWithRequestFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/initialize/InitializeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/repository/SpaceshipRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/repository/SpaceshipRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/DefaultSpaceshipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/SpaceshipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/service/SpaceshipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/test/java/com/example/task2/SpaceshipSpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/test/java/com/example/task2/SpaceshipSpringApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" afterDir="false" />
     </list>
@@ -112,7 +257,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
@@ -228,6 +373,8 @@
       <workItem from="1704923153359" duration="286000" />
       <workItem from="1704923455811" duration="3775000" />
       <workItem from="1704958475241" duration="1276000" />
+      <workItem from="1704973973444" duration="6129000" />
+      <workItem from="1704995147386" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="remove accidental files">
       <option name="closed" value="true" />
@@ -293,7 +440,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702305669469</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="configure docker setup">
+      <option name="closed" value="true" />
+      <created>1704974195855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704974195855</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixes to docker setup">
+      <option name="closed" value="true" />
+      <created>1704975470699</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704975470699</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +470,10 @@
     <MESSAGE value="fixed gateway" />
     <MESSAGE value="add event for adding spaceship" />
     <MESSAGE value="initialize angular project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize angular project" />
+    <MESSAGE value="configure docker setup" />
+    <MESSAGE value="fixes to docker setup" />
+    <MESSAGE value="docker set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker set up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
