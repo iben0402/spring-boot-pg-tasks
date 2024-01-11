@@ -11,8 +11,8 @@
 #######################################
 function main() {
     cd ./space-astronaut/; sh ./build.sh; cd ..
-    cd ./space-spaceship/; sh ./build.sh; cd ..
     cd ./space-gateway/; sh ./build.sh; cd ..
+    cd ./space-spaceship/; sh ./build.sh; cd ..
     cd ./space-ng/; sh ./build.sh; cd ..
 }
 

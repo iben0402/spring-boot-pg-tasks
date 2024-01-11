@@ -18,7 +18,7 @@ services:
     environment:
       SPACE_ASTRONAUT_URL: "http://space-astronaut:8080"
       SPACE_SPACESHIP_URL: "http://space-spaceship:8080"
-      SPACE_GATEWAY_HOST: "space-gateway:8080"
+      SPACE_GATEWAY_HOST: "space-gateway:8082"
 
   space-ng:
     image: space-ng:1.0.0-SNAPSHOT
