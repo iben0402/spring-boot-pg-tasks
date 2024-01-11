@@ -1,7 +1,11 @@
 # spring-boot-pg-tasks
-Spring boot tasks made for university classes.
-The purpose of this app is to manipulate astronauts and spaceships (astronauts belong to spaceships).
+Web app made using Spring Boot and angular. Its purpose is to manage spaceships and astronauts on them. You can add, edit, and delete them. 
 
 ## branches:
-* **master** - microservices app with gateway and angular front end
-* **monolithic** - monolithic app
+* **master** - microservices app with gateway and angular front end.
+* **monolithic** - monolithic app, no front end.
+
+## Versions
+Java 17
+Angular 16
+Spring Boot 3.1.5
