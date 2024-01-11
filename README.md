@@ -6,6 +6,6 @@ Web app made using Spring Boot and angular. Its purpose is to manage spaceships 
 * **monolithic** - monolithic app, no front end.
 
 ## Versions
-Java 17
-Angular 16
-Spring Boot 3.1.5
+* Java 17
+* Angular 16
+* Spring Boot 3.1.5
