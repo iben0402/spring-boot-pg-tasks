@@ -2,9 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SpaceshipService } from '../../service/spaceship.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SpaceshipForm } from '../../model/spaceship-form';
-import {Astronauts} from "../../../astronaut/model/astronauts";
-import {AstronautService} from "../../../astronaut/service/astronaut.service";
-
+import { v4 as uuidv4 } from 'uuid';
 @Component({
   selector: 'app-spaceship-add',
   templateUrl: './spaceship-add.component.html',
@@ -23,36 +21,28 @@ export class SpaceshipAddComponent implements OnInit {
   spaceship: SpaceshipForm | undefined;
 
   /**
-   * Available astronauts.
-   */
-  astronauts: Astronauts | undefined;
-
-  /**
-   * @param astronautService astronaut service
+   *
    * @param spaceshipService spaceship service
-   * @param route activated route
    * @param router router
    */
   constructor(
-    private astronautService: AstronautService,
     private spaceshipService: SpaceshipService,
-    private route: ActivatedRoute,
     private router: Router
   ) {
-  }
-
-  ngOnInit() {
     this.spaceship = {
       name: '',
       capacity: 0
-    }
+    };
+  }
+  ngOnInit() {
+
   }
 
   /**
-   * Updates spaceship.
+   * adds spaceship.
    */
   onSubmit(): void {
-    this.spaceshipService.putSpaceship(this.uuid!, this.spaceship!)
+    this.spaceshipService.putSpaceship(uuidv4(), this.spaceship!)
       .subscribe(() => this.router.navigate(['/spaceships']));
   }
 

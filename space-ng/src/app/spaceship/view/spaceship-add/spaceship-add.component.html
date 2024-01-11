@@ -1,4 +1,4 @@
-<article>
+<article *ngIf="spaceship">
   <header><h2>Add spaceship</h2></header>
 
   <form class="container"  #form="ngForm" (ngSubmit)="onSubmit()">
@@ -6,7 +6,7 @@
       <div class="col-4 p-2">
         <div>
           <label for="name">Name:</label>
-          <input id="name" name="name"/>
+          <input id="name" [(ngModel)]="spaceship.name" name="name"/>
         </div>
       </div>
     </div>
@@ -15,7 +15,7 @@
       <div class="col-4 p-2">
         <div>
           <label for="capacity">Capacity:</label>
-          <input id="capacity" name="capacity"/>
+          <input id="capacity" name="capacity" [(ngModel)]="spaceship.capacity"/>
         </div>
       </div>
     </div>

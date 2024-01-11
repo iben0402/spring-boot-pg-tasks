@@ -63,7 +63,7 @@ export class AstronautAddComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.spaceshipService.getSpaceship(params['uuid'])
         .subscribe(spaceship => {
-          this.uuid = 'f5875513-bf7b-4ae1-b8a5-5b70a1b90333';
+          this.uuid = '';
           this.spaceship = {
             id: spaceship.id,
             name: spaceship.name,
