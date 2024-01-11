@@ -38,3 +38,4 @@ DELETE http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
 ### DELETE spaceship by ID
 DELETE http://localhost:8080/api/spaceships/00000001-0000-0000-0000-000000000002
 
+GET http://localhost:8081/api/spaceships/00000001-0000-0000-0000-000000000002/astronauts

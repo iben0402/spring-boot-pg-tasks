@@ -20,7 +20,6 @@ com/example/task2/astronaut/dto/PutAstronautRequest$PutAstronautRequestBuilder.c
 com/example/task2/spaceship/entity/Spaceship.class
 com/example/task2/astronaut/dto/GetAstronautResponse$GetAstronautResponseBuilder.class
 com/example/task2/astronaut/dto/GetAstronautsResponse$Astronaut$AstronautBuilder.class
-com/example/task2/astronaut/initialize/InitializeData.class
 com/example/task2/spaceship/dto/GetSpaceshipsResponse$Spaceship.class
 com/example/task2/spaceship/dto/GetSpaceshipResponse$GetSpaceshipResponseBuilder.class
 com/example/task2/astronaut/controller/DefaultAstronautController.class

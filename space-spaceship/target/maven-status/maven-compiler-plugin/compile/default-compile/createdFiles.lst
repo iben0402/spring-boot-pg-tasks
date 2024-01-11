@@ -4,7 +4,6 @@ com/example/task2/spaceship/dto/PutSpaceshipRequest.class
 com/example/task2/spaceship/dto/GetSpaceshipsResponse$GetSpaceshipsResponseBuilder.class
 com/example/task2/spaceship/event/repository/api/SpaceshipEventRepository.class
 com/example/task2/spaceship/service/SpaceshipService.class
-com/example/task2/spaceship/initialize/InitializeData.class
 com/example/task2/spaceship/service/DefaultSpaceshipService.class
 com/example/task2/spaceship/repository/SpaceshipRepository.class
 com/example/task2/spaceship/dto/GetSpaceshipResponse.class

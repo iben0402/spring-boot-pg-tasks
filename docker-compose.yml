@@ -1,28 +1,40 @@
-version: '3'
+version: '3.8'
 
 services:
-  space-astronaut:
-    image: space-astronaut:1.0.0-SNAPSHOT
-    restart: always
+  space-ng:
+    image: nginx
+    container_name: space-ng
+    volumes:
+      - ./space-ng/docker/etc/nginx/templates:/etc/nginx/templates/
+      - ./space-ng/dist/space-ng:/usr/share/nginx/html/
+    ports:
+      - "80:80"
+    environment:
+      API_URL: "http://localhost:8080/api"
+
 
   space-spaceship:
-    image: space-spaceship:1.0.0-SNAPSHOT
-    restart: always
-    environment:
-      SPACE_ASTRONAUT_URL: "http://space-astronaut:8080"
-
-  space-gateway:
-    image: space-gateway:1.0.0-SNAPSHOT
-    restart: always
-    environment:
-      SPACE_ASTRONAUT_URL: "http://space-astronaut:8080"
-      SPACE_SPACESHIP_URL: "http://space-spaceship:8080"
-      SPACE_GATEWAY_HOST: "http://space-gateway:8080"
-
-  space-ng:
-    image: space-ng:1.0.0-SNAPSHOT
-    restart: always
-    environment:
-      API_URL: http://space-gateway:8080/api
+    image: eclipse-temurin
+    container_name: space-spaceship
+    volumes:
+      - ./space-spaceship/target/space-spaceship-1.0.0-SNAPSHOT.jar:/opt/space-spaceship/space-spaceship.jar
     ports:
-      - "8087:80"
+      - "8082:8082"
+    environment:
+      SERVER_PORT: 8082
+      ASTRONAUT_URL: "http://space-astronaut:8081"
+    command: bash -c "java -jar /opt/space-spaceship/space-spaceship.jar"
+    restart: always
+
+
+  space-astronaut:
+    image: eclipse-temurin
+    container_name: space-astronaut
+    volumes:
+      - ./space-astronaut/target/space-astronaut-1.0.0-SNAPSHOT.jar:/opt/space-astronaut/space-astronaut.jar
+    ports:
+      - "8081:8081"
+    environment:
+      SERVER_PORT: 8081
+    command: bash -c "java -jar /opt/space-astronaut/space-astronaut.jar"
+    restart: always

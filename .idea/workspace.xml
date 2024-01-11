@@ -4,16 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="docker set up">
+    <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="docker update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/requests.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/java/com/example/task2/astronaut/initialize/InitializeData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/space-astronaut-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/space-astronaut-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/build.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/space-gateway-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/space-gateway-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-ng/src/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/proxy.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/java/com/example/task2/spaceship/initialize/InitializeData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-spaceship/target/space-spaceship-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/space-spaceship-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" afterDir="false" />
@@ -34,6 +54,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="docker" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -45,6 +70,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="docker-another-solution" />
+                    <option name="lastUsedInstant" value="1705000822" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="docker" />
                     <option name="lastUsedInstant" value="1704964548" />
@@ -87,7 +116,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;docker&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;docker-another-solution&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-spaceship&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -118,20 +147,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="requests | DELETE spaceship by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="14" requestIdentifier="DELETE spaceship by ID" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="requests | GET all astronauts" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" requestIdentifier="GET all astronauts" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="requests | GET all spaceships" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="9" requestIdentifier="GET all spaceships" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="HTTP Request.requests | PUT new astronaut">
     <configuration name="requests | PUT new astronaut" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="6" requestIdentifier="PUT new astronaut" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="requests | PUT new spaceship" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/space-gateway/requests.http" index="12" requestIdentifier="PUT new spaceship" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="AstronautSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -155,6 +172,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.space-astronaut: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="space-astronaut" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.space-ng: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="space-ng" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.space-spaceship: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="space-spaceship" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="install" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/space-ng/package.json" />
       <command value="install" />
@@ -170,11 +238,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.requests | DELETE spaceship by ID" />
-      <item itemvalue="HTTP Request.requests | GET all astronauts" />
-      <item itemvalue="HTTP Request.requests | GET all spaceships" />
+      <item itemvalue="Docker.docker-compose.yml.space-astronaut: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.space-ng: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.space-spaceship: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="HTTP Request.requests | PUT new astronaut" />
-      <item itemvalue="HTTP Request.requests | PUT new spaceship" />
       <item itemvalue="npm.install" />
       <item itemvalue="npm.start" />
       <item itemvalue="Spring Boot.AstronautSpringApplication" />
@@ -183,11 +251,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.requests | GET all astronauts" />
         <item itemvalue="HTTP Request.requests | PUT new astronaut" />
-        <item itemvalue="HTTP Request.requests | GET all spaceships" />
-        <item itemvalue="HTTP Request.requests | PUT new spaceship" />
-        <item itemvalue="HTTP Request.requests | DELETE spaceship by ID" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.space-astronaut: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.space-ng: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.space-spaceship: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +279,8 @@
       <workItem from="1704923455811" duration="3775000" />
       <workItem from="1704958475241" duration="1276000" />
       <workItem from="1704973973444" duration="6129000" />
-      <workItem from="1704995147386" duration="3032000" />
+      <workItem from="1704995147386" duration="4508000" />
+      <workItem from="1705001938227" duration="6879000" />
     </task>
     <task id="LOCAL-00001" summary="remove accidental files">
       <option name="closed" value="true" />
@@ -301,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704995775976</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="docker update">
+      <option name="closed" value="true" />
+      <created>1705000787199</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705000787199</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +395,8 @@
     <MESSAGE value="configure docker setup" />
     <MESSAGE value="fixes to docker setup" />
     <MESSAGE value="docker set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker set up" />
+    <MESSAGE value="docker update" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

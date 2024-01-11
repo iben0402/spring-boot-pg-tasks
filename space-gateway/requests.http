@@ -14,7 +14,7 @@ GET http://localhost:8082/api/spaceships/00000001-0000-0000-0000-000000000001/as
 GET http://localhost:8082/api/spaceships/00000001-0000-0000-0000-000000000003/astronauts
 
 ### PUT new astronaut
-PUT http://localhost:8082/api/astronauts/00000000-0000-0000-0000-000000000018
+PUT http://localhost:8080/api/astronauts/00000000-0000-0000-0000-000000000018
 Content-Type: application/json
 
 {
