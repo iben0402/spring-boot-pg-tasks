@@ -10,11 +10,13 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>space-astronaut</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>space-astronaut</name>
     <description>Astronaut module for space project</description>
     <properties>
         <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>

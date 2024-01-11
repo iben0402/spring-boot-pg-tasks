@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c99a30-f41a-4db7-8e23-14056c53da29" name="Changes" comment="initialize angular project">
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-astronaut/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-astronaut/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-gateway/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-ng/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-ng/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-ng/docker/etc/nginx/templates/default.conf.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space-spaceship/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/space-ng/src/app/component/nav/nav.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/space-astronaut-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/TEST-com.example.task2.Task2ApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-astronaut/target/surefire-reports/com.example.task2.Task2ApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/target/space-gateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/TEST-com.example.task2.GatewaySpringApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-gateway/target/surefire-reports/com.example.task2.GatewaySpringApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/target/space-spaceship-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/TEST-com.example.task2.SpaceshipSpringApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/space-spaceship/target/surefire-reports/com.example.task2.SpaceshipSpringApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +45,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="TypeScript File" />
+        <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -28,6 +56,33 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="docker" />
+                    <option name="lastUsedInstant" value="1704964548" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1704960173" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="microservices" />
+                    <option name="lastUsedInstant" value="1704960172" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,16 +105,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;microservices&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/iwonabendig/college/s5/spring-boot-pg-tasks&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;docker&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-spaceship&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/iwonabendig/college/s5/spring-boot-pg-tasks/space-ng/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -67,6 +122,12 @@
 }</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/space-spaceship" />
+      <recent name="$PROJECT_DIR$/space-astronaut" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
